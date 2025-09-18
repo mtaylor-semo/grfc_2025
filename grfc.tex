@@ -1,0 +1,184 @@
+%!TEX TS-program = lualatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[12pt]{article}
+
+%\usepackage{pdflscape}
+
+\usepackage{geometry}
+\geometry{letterpaper}                   
+\geometry{bottom=0.75in, left = 1in, right = 1in}
+
+\pagenumbering{gobble}
+
+\usepackage{fontspec}
+\setmainfont[Ligatures={Common,TeX}, BoldFont={* Bold}, ItalicFont={* Italic}, Numbers={Proportional}]{Linux Libertine O}
+\setsansfont[Scale=MatchLowercase,Ligatures=TeX, Numbers=OldStyle]{Linux Biolinum O}
+\usepackage{microtype}
+
+\usepackage{setspace}
+\usepackage{hanging}
+
+\usepackage{threeparttable}
+
+\usepackage{booktabs}
+%\usepackage{longtable}
+\usepackage{url}
+
+\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+
+\usepackage{enumitem}
+
+\usepackage[sc]{titlesec}
+
+\begin{document}
+
+{\Large
+	\textbf{Faculty Research and Creative Work Proposal Title Page}
+}
+
+\bigskip
+
+
+\begin{enumerate}
+	\item Title: \textbf{Passive acoustic monitoring of wildlife inhabiting  restored wetlands, southeast Missouri.}
+	
+	\item Name(s) of Investigator(s):  \textbf{Michael S. Taylor}
+	
+	\item Department of \textbf{Biology, MS 6200}
+	
+	\item College of Science, Technology, Engineering, and Mathematics
+	
+	\item Period covered by proposal: October 2025 to Spring 2027
+	
+	\item Total amount of request: \$4000.00 \textbf{put in actual amount}
+	
+	\item Does this proposal involve human subjects? \textbf{No} \qquad animal subjects? \textbf{Yes;}\newline
+	hazardous materials? \textbf{No} \qquad controlled substances? \textbf{No}
+	
+	\item Have you previously sought external funds for this project? \qquad \textbf{No}
+	
+	\item Have you identified potential (future) external funding sources for this project? \textbf{Yes} External
+	Funding Source(s) \textbf{Missouri Department of Conservation}
+	
+	\item If no external funding sources have been identified, have you contacted the Office of Research and
+	Grant Development to conduct a search on your behalf?  \textbf{No}
+	
+	\item Brief abstract
+	
+	\textbf{Abstract goes here}
+	
+	
+
+
+\end{enumerate}
+
+	
+\newpage
+
+
+\noindent\begin{tabular}{@{}lll@{}}
+	\rule{3in}{0.4pt} & \noindent\rule{2in}{0.4pt} &
+	\rule{1in}{0.4pt} \tabularnewline
+	Signature of investigator &
+	Printed Name &
+	Date \tabularnewline[1cm]
+%	
+	\rule{3in}{0.4pt} & \noindent\rule{2in}{0.4pt} &
+	\rule{1in}{0.4pt} \tabularnewline
+	G\textsc{rfc} College Representative &
+	Printed Name &
+	Date \tabularnewline[1cm]
+	%
+	\rule{3in}{0.4pt} & \noindent\rule{2in}{0.4pt} &
+	\rule{1in}{0.4pt} \tabularnewline
+	Department Chairperson &
+	Printed Name &
+	Date \tabularnewline[1cm]
+	%
+	%
+	\rule{3in}{0.4pt} & \noindent\rule{2in}{0.4pt} &
+	\rule{1in}{0.4pt} \tabularnewline
+	College Dean &
+	Printed Name &
+	Date \tabularnewline[1cm]
+	
+\end{tabular}
+
+\newpage
+
+\doublespacing
+
+% Intro
+
+Birds, bats, amphibians, and insects, among other less-studied animal groups, are in catastrophic global decline [1–4]. Loss of these groups will have devastating long-term effects on ecosystems and the loss of hundreds of billions of dollars annually just in agricultural production via pollination [1,5]. Birds alone have lost nearly 3 billion individuals (29\%) from North America during the past 50 years [2]. Bird groups that suffered and continue to suffer the greatest losses are grassland ($-$53\%), shore ($-$37\%), and forest birds ($-$24\%). The primary cause of decline is habitat loss [2,6]. 
+
+Habitat loss in Missouri has been especially pronounced in the southeastern “bootheel” region. The bootheel, more formally the upper Mississippi Alluvial Basin, was formed by natural changes to the course of the Mississippi River across the region, combined with seasonal flooding that deposited nutrient-rich soils.  Regular flooding and deposition created a variety of permanent to semi-permanent wetland marsh and swamps (Nelson 2005, Olson et~al.~2016\textit{a}, 2016\textit{b}). The swamps of southeast Missouri were once among the largest tracts of bottomland forests. The forests were drained and harvested for timber in the late 1800s and early 1900s as land was converted to agriculture (Nelson 2005, Frazier and Galat 2009). These habitat alterations resulted in the loss of about 90\% of the overall wetlands and more than 99\% of the forested swamps (Brown et~al.~2000).  The bottomland forests were used by approximately 60\% of the bird species in the contiguous U.S.~for breeding, migration, or wintering grounds so the dramatic loss of forested habitat has significantly contributed to widespread loss of birds (Brown et~al.~2000).
+
+
+The losses can be mitigated through proper habitat management and restoration, as suggested by increased abundance of waterfowl (ducks and geese, $+$53\%) that have benefitted from federal and state habitat management programs across North America.  Management and recovery in southeast Missouri has been facilitated in part by a network for 4 large refuges and conservation areas (Table~\ref*{tab:se_mo_refuges}) that together provide nearly 15,000 ha of restored habitat critical for wintering waterfowl and migratory birds. These refuges are part of a broader network of federal and state refuges that span the Mississippi Flyway, a migratory route from the Gulf of Mexico north to the arctic regions of Canada. 
+
+\input{tables/se_mo_refuges}
+
+
+In addition to large refuges, recent studies emphasize the critical conservation value of small habitat patches, particularly in human-modified landscapes (Tulloch et~al.~2016, Riva and Fahrig 2022). Small patches that incorporate structural elements like vertical nesting strata, shrubby vegetation, and diverse plant species, may support avian diversity not present in larger, more contiguous habitat (Wintle et~al.~2019, Yan et~al.~2021). Small habitat patches can also promote connectivity among suitable habitat patches in otherwise highly modified environments. Thus, small remnant habitats maintained by state agencies in Missouri, such as Big Oak Tree State Park and Sand Prairie Conservation Area, and several smaller conservation areas can help meet~many conservation goals, especially when considered as part of a broader habitat matrix (Wintle et~al.~2019, Riva and Fahrig 2022). In addition, landowners can set~aside land parcels for conservation through the U.S. Department of Agriculture, in either the Conservation Reserve Program (administered by the Farm Service Agency) or the Wetlands Reserve Program (\textsc{wrp}, administered by the Natural Resource Conservation Service). 
+
+
+One land parcel enrolled in the \textsc{wrp} is Miller Reserve, an 11 ha tract located in eastern Scott County, Missouri at the northern extent of the Mississippi Alluvial Valley. The tract was enrolled in the \textsc{wrp} to restore historical wetland features on the landscape where crops had been grown for years. Restoration of the wetland habitat should  provide critical habitat for breeding, migrating, and wintering birds. Documenting how physical habitat features, such as vegetation type, plant diversity, and vertical structure, affect use of the site by birds will allow researchers to better evaluate the functional outcomes of restoration and support adaptive conservation strategies for small patches embedded in human-dominated landscapes (Eppinga et~al.~2023, Lopes et~al.~2023).
+
+The primary objective of this study is to document the nesting site selection and habitat usage of bird species within the restored wetland ecosystem of Miller Reserve during the summer breeding season (April through August). Through weekly field visits, the study aims to record observed bird species, identify and locate nests of summer breeders, and track the coordinates of both confirmed and potential nesting sites. Additionally, the study seeks to characterize the habitat preferences of bird species by noting their presence in specific habitat types within the wetland. This research will contribute to a better understanding of avian ecology in restored wetlands and provide valuable insights for conservation and management efforts.
+
+
+
+
+secure digital (\textsc{sd}) cards are uniquitous flash memory storage cards found in a variety of digital devices such as recorders and cameras. 
+
+acoustic recording device (\textsc{aru})
+
+passive acoustic monitoring (\textsc{pam})
+
+
+\subsubsection*{Project Design and Methods}
+
+This project has XXX goals.
+
+1. Monitor two areas for winter bird use: Miller and Brenda Kay. Deploy one recorder each at Miller Reserve and Brenda Kay. Monitor from November through April. Most waterfowl gone by then.  Goal here is to estimate number of species using these two different habitats.
+
+2. Monitor and localize breeding bird use at Miller.  Move recorder from Brenda Kay to Miller. Stagger placement (southwest quadrant and northeast quadrant). Will be able to monitor breeding bird use and possibly localize territories of uncommon breeders such as Blue Grosbeak and Bell's Vireo.
+
+3. Monitor frog use during summer. Recorders will also record calls made by frogs. Probably unable to localize as anticipated that most species will be too abundant. 
+
+4. Monitor migration and migrating bird use (fall and spring). This requires recording nocmig. At least one recorder at Miller will record record some migrant arrivals. Will get some sense of timing of peak use during migration. Monitor Birdcast for predicted high migration nights? Set up nocmig recorder? Perhaps use a bucket system towards back that is camoflaged? Go down on specific nights? How to go about this?
+
+5. Monitor bat use during spring, summer, fall. (WInter? Logistics?)
+
+6. Bonus: baseline species richness estimates for singing insects
+
+
+I will deploy one ARU each at Miller Reserve (owned by the university and maintained by the department), Brenda Kay Quarry, and a site on private property in Mississippi County.  Miller Reserve is a 27 acre restored wetland in Scott County.  Brenda Kay Quarry is a private sand quarry located approximately 4 km (2.5 miles) southwest of Miller Reserve. The private property is located about 11 km (6.75 mi) south of East Prairie. I have permission from the quarry manager and private land owner to place and regularly access units on their property. 
+
+ARUs will be visited every 1–2 weeks to replace the batteries and \textsc{sd} card. The amount of time depends on how quickly the batteries are drained and the \textit{sd} card fills with data. I will determine a suitable time between visits through preliminary testing in the field prior to actual deployment.
+
+
+
+I need three cards per device: 1 active, 1 to replace, 1 as a spare. 
+
+Three devices
+
+1 solar panel? Or two? At least one for the more distant location.
+
+
+PAM generates a vast amount of data that need to be processed and analyzed. I will use opensoundscape (Lapp et~al.2023; \url{https://opensoundscape.org}), toolkit developed in the Python programming language specifically to analyze these types of data. Opensoundscape can process large amounts of audio files in a relatively short time and provide identification of animal sounds, including birds and amphibians.
+
+
+\textbf{Expertise:} I have been recording bird vocalizations since 2018 and have contributed over 3600 audio recordings to Macaulay Library, the media arm of Cornell University Labratory of Ornithology. Four of my recordings have been published in Merlin (a widely used smartphone app) and the Cornell Guide to Bird Sounds of North America. I have also contributed about 30 recordings of frogs and a handful of mammals. This project represents an extension of that work.
+
+
+\newpage
+
+\input{literature_cited}
+
+\end{document}  
